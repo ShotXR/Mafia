@@ -1,0 +1,93 @@
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+  }
+  #content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  .satauri{
+    width: 500px;
+    height: 500px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+    border: 3px solid  #A80100;
+    width: 319px;
+    height: 106px;
+  }
+  .button{
+    border: 3px solid  #A80100;
+    width: 319px;
+    height: 106px;
+  }
+  .button2{
+    border: 3px solid  #A80100;
+    width: 390px;
+    height: 100px;
+  }
+  .button3{
+    border: 3px solid  #A80100;
+    width: 484px;
+    height: 100px;
+  }
+  .buttonBox{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 13px;
+    position: absolute;
+    border: 3px solid  #A80100;
+    width: 350px;
+    height: 135px;
+  }
+  .buttonBox2{
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-left: 13px;
+    position: absolute;
+    border: 3px solid  #A80100;
+    width: 425px;
+    height: 128px;
+  }
+  .buttonBox3{
+    margin-top: 400px;
+    padding-top: 10px;
+    padding-left: 13px;
+    position: absolute;
+    border: 3px solid  #A80100;
+    width: 514px;
+    height: 128px;
+  }
+  .a{
+    color: #A80100;
+    display:flex ;
+    font-family:myFirstFont;
+    font-size: 70px;
+    justify-content: center;
+  }
